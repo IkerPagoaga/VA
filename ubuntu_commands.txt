@@ -1,0 +1,47 @@
+system information: uptime: Tell how long the system has been running.: [options]
+system information: uname: Print system information.: [options]
+system information: hostname: Show or set the system’s hostname.: [options]
+system information: dmesg: Print or control the kernel ring buffer.: [options]
+system information: lsb_release: Print distribution-specific information.: [options]
+
+hardware information: lscpu: Display information about the CPU architecture.: [options]
+hardware information: lshw: List hardware configuration.: [options]
+hardware information: lsblk: List information about block devices.: [options]
+hardware information: lspci: List all PCI devices.: [options]
+hardware information: lsusb: List USB devices.: [options]
+
+monitoring and statistics: top: Display Linux tasks.: [options]
+monitoring and statistics: htop: Interactive process viewer.: [options]
+monitoring and statistics: df: Report file system disk space usage.: [options]
+monitoring and statistics: free: Display amount of free and used memory in the system.: [options]
+monitoring and statistics: iostat: Report CPU and I/O statistics.: [options]
+
+user information: whoami: Print effective user ID.: [options]
+user information: id: Print user identity.: [options]
+user information: groups: Show group memberships.: [options]
+user information: who: Show who is logged on.: [options]
+user information: last: Show listing of last logged in users.: [options]
+
+file and directory: ls: List directory contents.: [options] [file...]
+file and directory: cd: Change the shell working directory.: [directory]
+file and directory: pwd: Print name of current/working directory.: [options]
+file and directory: mkdir: Make directories.: [options] [directory...]
+file and directory: rm: Remove files or directories.: [options] [file...]
+
+process management: ps: Report a snapshot of current processes.: [options]
+process management: kill: Send a signal to a process.: [options] [pid]
+process management: pkill: Send signal to processes based on name and other attributes.: [options] [pattern]
+process management: pgrep: Look up or signal processes based on name and other attributes.: [options] [pattern]
+process management: pstree: Display a tree of processes.: [options]
+
+file permissions: chmod: Change file modes or Access Control Lists.: [mode] [file]
+file permissions: chown: Change file owner and group.: [owner] [file]
+file permissions: chgrp: Change group ownership.: [options] [group] [file...]
+file permissions: umask: Set file mode creation mask.: [mask]
+file permissions: getfacl: Get file access control lists.: [options] [file...]
+
+networking: ifconfig: Configure a network interface.: [interface] [options]
+networking: ip: Show/manipulate routing, devices, policy routing and tunnels.: [options] [command]
+networking: ping: Send ICMP ECHO_REQUEST to network hosts.: [options] [destination]
+networking: traceroute: Print the route packets take to the network host.: [options] [destination]
+networking: netstat: Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.: [option
